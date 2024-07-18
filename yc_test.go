@@ -39,6 +39,7 @@ func TestYC(t *testing.T) {
 
 				containers := NewBlock("containers")
 				containers.AddArrayValues(name, image)
+				containers.AddArrayValues(name, image)
 
 				spec := NewBlock("spec")
 				spec.AddBlock(containers)
