@@ -6,3 +6,5 @@ spec:
   containers:
   - name: hello
     image: hello-world:latest
+  - name: hello
+    image: hello-world:latest
